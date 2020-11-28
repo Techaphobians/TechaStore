@@ -1,12 +1,14 @@
-const navSlide = () => {
-	const burger = document.querySelector('.burger');
-	const nav = document.querySelector('.navigation__nav-list');
-	const navLinks = document.querySelectorAll('.navigation__nav-list li');
+class NavSlide {
+	constructor() {
+		this.burger = document.querySelector('.burger');
+		this.nav = document.querySelector('.navigation__nav-list');
+		this.navLinks = document.querySelectorAll('.navigation__nav-list li');
+	}
 
-	burger.addEventListener(`click`, () => {
-		nav.classList.toggle('nav-active');
+	navAnimation() {
+		this.nav.classList.toggle('nav-active');
 
-		navLinks.forEach((link, index) => {
+		this.navLinks.forEach((link, index) => {
 			if (link.style.animation) {
 				link.style.animation = '';
 			} else {
@@ -16,8 +18,13 @@ const navSlide = () => {
 			}
 		});
 
-		burger.classList.toggle('toggle');
-	});
-};
+		this.burger.classList.toggle('toggle');
+	}
+}
 
-navSlide();
+const navslide = new NavSlide();
+
+navslide.burger.addEventListener(`click`, () => {
+	navslide.navAnimation();
+});
+
