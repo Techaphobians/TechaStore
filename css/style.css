@@ -111,7 +111,7 @@ body {
   padding: 3rem; }
   .navigation__nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; }
   .navigation__nav-logo {
     text-decoration: none;
