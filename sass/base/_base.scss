@@ -1,3 +1,5 @@
+//default syling for our page
+
 *,
 *::after,
 *::before {
@@ -8,8 +10,9 @@
 
 html {
   //This defines base rem
-  font-size: 62.5%; // 1 rem = 10px/16px = 52.5%
+  font-size: 62.5%; // 1 rem = 10px/16px = 62.5%
 
+  // these lines below can be used to setup our media queries
   //   @include respond(tab-land) {
   //     font-size: 56.25%; //1 rem = 9px/16px = 56.25%
   //   }
@@ -22,6 +25,8 @@ html {
   //     font-size: 75%; // 1rem = 12px/16 = 75%
   //   }
 }
+
+//sets our site so that the margins and paddings arent being calculated into our elements height or width values
 
 body {
   box-sizing: border-box;
