@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Find your next classic ebook." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/icon.svg" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
+    <link rel="icon" href="img/TPlogo.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--<link rel="stylesheet" href="css/icon-font.css"> -->
     <link rel="stylesheet" href="css/style.css" />
@@ -18,10 +18,18 @@
   </head>
 
   <body>
+  <!-- The toTop button which will take you to the top -->
+  <div class="toTop">
+    <a href="#">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+  </div>
+
+
     <header class="header">
       <div class="navigation">
         <nav class="navigation__nav">
-          <a class="navigation__nav-logo" href="">Ebooks</a>
+          <a class="navigation__nav-logo" href="">TP</a>
           <ul class="navigation__nav-list">
             <li class="navigation__nav-item">
               <a href="" class="navigation__nav-link">Home</a>
@@ -56,7 +64,40 @@
       </div>
     </header>
 
+
+<!-- The books section for the display -------------------------------------------------------- -->
     <section class="section-books">
+
+      <div class="card">
+        <img src="img/book-1.jpg" alt="" class="card__book-img" />
+        <div class="card__text-box">
+          <h3 class="book-title">Card 1</h3>
+          <p class="book-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, tempore!
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/book-1.jpg" alt="" class="card__book-img" />
+        <div class="card__text-box">
+          <h3 class="book-title">Card 1</h3>
+          <p class="book-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, tempore!
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/book-1.jpg" alt="" class="card__book-img" />
+        <div class="card__text-box">
+          <h3 class="book-title">Card 1</h3>
+          <p class="book-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, tempore!
+          </p>
+        </div>
+      </div>
+
       <div class="card">
         <img src="img/book-1.jpg" alt="" class="card__book-img" />
         <div class="card__text-box">
@@ -84,34 +125,14 @@
           </p>
         </div>
       </div>
-      <div class="card">
-        <img src="img/book-1.jpg" alt="" class="card__book-img" />
-        <div class="card__text-box">
-          <h3 class="book-title">Card 1</h3>
-          <p class="book-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, tempore!
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="img/book-1.jpg" alt="" class="card__book-img" />
-        <div class="card__text-box">
-          <h3 class="book-title">Card 1</h3>
-          <p class="book-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, tempore!
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="img/book-1.jpg" alt="" class="card__book-img" />
-        <div class="card__text-box">
-          <h3 class="book-title">Card 1</h3>
-          <p class="book-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, tempore!
-          </p>
-        </div>
-      </div>
+  
     </section>
+
+     <!-- the View More button -->
+     <div class="view">
+       <a href=#><button id="viewMore">View More</button></a>
+     </div>
+
     
     <script src="script.js"></script>
   </body>
