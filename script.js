@@ -1,3 +1,4 @@
+//For the Hamburger Toggler------------------------------------------------------------------------------------
 class NavSlide {
 	constructor() {
 		this.burger = document.querySelector('.burger');
@@ -27,4 +28,20 @@ const navslide = new NavSlide();
 navslide.burger.addEventListener(`click`, () => {
 	navslide.navAnimation();
 });
+// -------------------------------------------------------------------------------------------------
+
+//For the ToTop Button
+const toTop =  document.querySelector(".toTop");
+
+window.addEventListener('scroll',() =>{
+if(window.pageYOffset > 100){
+	toTop.style.display = 'block'
+}
+else
+	toTop.style.display = 'none';
+
+})
+
+
+
 
