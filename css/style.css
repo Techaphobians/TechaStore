@@ -112,7 +112,7 @@ body {
 	color: #ffffff;
 }
 		
-.toTop:hover{
+.toTop a:hover{
 	background-color: rgba(32, 153, 191, 0.8);
 }
 
