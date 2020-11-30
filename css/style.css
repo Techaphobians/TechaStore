@@ -85,7 +85,7 @@ body {
 
 /*Styling for toTop button -----------------------------------------*/
 
-.toTop{
+.toTop i{
 	position: fixed;
 	display: none;
 	z-index: 11;
