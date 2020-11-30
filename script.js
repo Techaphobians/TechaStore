@@ -31,7 +31,7 @@ navslide.burger.addEventListener(`click`, () => {
 // -------------------------------------------------------------------------------------------------
 
 //For the ToTop Button
-const toTop =  document.querySelector(".toTop");
+const toTop =  document.querySelector(".toTop i");
 
 window.addEventListener('scroll',() =>{
 if(window.pageYOffset > 100){
