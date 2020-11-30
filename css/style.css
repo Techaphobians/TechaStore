@@ -104,20 +104,23 @@ body {
     transition: 0.2s ease-out;
 }
 
-		
-.toTop:hover{
-	background-color: rgba(32, 153, 191, 0.8);
-}
 .toTop a{
 	text-decoration: none;
 }
 
-.toTop a:active{
-	color: #ffffff;
-}
 .toTop a:visited{
 	color: #ffffff;
 }
+		
+.toTop:hover{
+	background-color: rgba(32, 153, 191, 0.8);
+}
+
+
+.toTop a:active{
+	color: #ffffff;
+}
+
 .toTop a:select{
 	text-decoration: none;
 }
